@@ -49,7 +49,7 @@ $MC->onCommand("java", function (Message $message) use ($MC){
             "reply_markup" => ["inline_keyboard" => $bottone]
         ]);
     } else {
-        return;
+        $message->reply("Errore server non esistente o offline");
     }
 });
 
