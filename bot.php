@@ -26,11 +26,6 @@ $MC->onCommand("start", function(Message $message){
         ]);
     }
 });
-/**
- * BOT MC STATUS VERSION: PHP BY CHILLATODEV
- * volete la source pubblica? bene scrivete nei commenti #vogliamolasource byee
- */
-
 
 $MC->onCommand("java", function (Message $message) use ($MC){
     $split = explode(" ", $message->text);
